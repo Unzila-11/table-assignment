@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        .pricing {
+            width: 100%;
+            border-collapse: separate;
+            text-align: center;
+            border-radius: 15px;
+            border-color: black;
+            border-style: solid;
+            background-color: rgb(165, 177, 4);
+padding: 10px;
+
+        }
+
+        .col {
+            border: 2px solid black;
+            background-color: rgb(3, 248, 166);
+            margin: 15px;
+            padding: 20px;
+            border-radius: 20px;
+            height: 30px;
+        }
+
+        .row {
+            border-style: solid;
+            background-color: rgb(3, 248, 166);
+            margin: 30px;
+            padding: 40px;
+            border-radius: 20px;
+            width: 70px;
+        }
+
+        td {
+            background-color: rgb(9, 175, 175);
+            border-color: black;
+            border-style: solid;
+            margin: 30px;
+            padding: 40px;
+            border-radius: 20px;
+            
+        }
+        .p{color: rgb(2, 83, 6);}
+        .f{color: rgb(151, 5, 5);}
+    </style>
+</head>
+
+<body>
+    <table class="pricing">
+        <thead>
+            <tr>
+                <th class="col">Student no.</th>
+                <th class="col">Bio%</th>
+                <th class="col">Chem%</th>
+                <th class="col">Phy%</th>
+                <th class="col">Result(pass/fail)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="row">Student 1</th>
+                <td>30</td>
+                <td>40</td>
+                <td>35</td>
+                <td class="f">fail</td>
+            </tr>
+            <tr>
+                <th class="row">Student 2</th>
+                <td>90</td>
+                <td>60</td>
+                <td>79</td>
+                <td class="p">pass</td>
+            <tr>
+                <th class="row">Student 3</th>
+                <td>74</td>
+                <td>96</td>
+                <td>89</td>
+                <td class="p">pass</td>
+            <tr>
+                <th class="row">Student 4</th>
+                <td>55</td>
+                <td>65</td>
+                <td>72</td>
+                <td class="p">pass</td>
+            </tr>
+            <tr>
+                <th class="row">Student 5</th>
+                <td>23</td>
+                <td>41</td>
+                <td>33</td>
+                <td class="f">fail</td>
+            
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
